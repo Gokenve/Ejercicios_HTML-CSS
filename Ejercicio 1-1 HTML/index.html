@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 HTML</title>
+</head>
+<body>
+
+        <!--Los backgrounds y estilos irían en CSS-->
+    <header class="header">
+        <nav class="header__nav">
+            <div>
+                <!--width="75px"--> 
+                <img class="image-logo" src="https://scontent.fmad19-2.fna.fbcdn.net/v/t39.30808-6/301186167_452516166919520_2747613046505712730_n.jpg?stp=dst-jpg_p206x206&_nc_cat=101&ccb=1-7&_nc_sid=da31f3&_nc_ohc=kxD82jABwTwAX_8WZpk&_nc_ht=scontent.fmad19-2.fna&oh=00_AT8BB7CJMj1oA5nHFh8_fSeAZgjPV1pJphEKhA5XkwM1FA&oe=63379791" alt="Logo MOZZABAR">
+            </div>
+                <!--También se puede resolver con una lista desordenada-->
+            <div>
+                <a class="header__nav_link" href="/">Home</a>
+                <a class="header__nav_link" href="/">Concepto</a>
+                <a class="header__nav_link" href="/">Fotos</a>
+                <a class="header__nav_link" href="/">Menú</a>
+                <a class="header__nav_link" href="/">Reservas</a>
+                <a class="header__nav_link" href="/">Blog</a>
+                <a class="header__nav_linkr" href="/">Contacto</a>
+            </div>
+        </nav>   
+    </header>
+
+    <main>
+        <section class="section-home">
+            <article class="section-home__article1">
+                <div>
+                    <p id="section-home__article1_p1">Descubre</p>
+                </div>    
+                <div>
+                    <h1>MOZZA BAR</h1>
+                </div>    
+                <div>
+                    <p id="section-home__article1_p2">WE ARE OPEN</p>
+                </div>    
+            </article>
+
+            <article class="section-home__article2">
+                <div class="section-home__article2_img">
+                    <img src="/" alt="foto acelga">
+                </div>
+                <div class="section-home__article2_img">
+                    <img src="/" alt="foto crema">
+                </div>
+                <div class="section-home__article2_text">
+                    <p><strong>CONCEPTO</strong></p>
+                    <p>Mozza Bar es un fantástico restaurante de cocina interenacional ubicado en el exclusivo barrio de salamaqnca. Distribuido en una única planta y una estupenda terraza, destaca por su decoración urbana con toques rústicos, que dotan al local de un ambiente especial y acogedor.</p>
+                    <br>
+                    <p>Disfruta de sus desalyunos, estimula tus sentidos con nuestros mejores platos o disfruta de nuestro AfterWork en buena compañía.</p>
+                    <br>
+                    <p>En Mozza Bar encontrarás clásicos de la gastronomía mundial, elaborados con productos siempre frescos, de calidad y un toque de personalidad.</p>
+                </div>
+            </article>
+        </section>
+        <section class="section-pictures">
+            <div>
+                <img class="section-pictures_img" src="/" alt="Foto estanteria1">
+                <img class="section-pictures_img" src="/" alt="Foto pared">
+                <img class="section-pictures_img" src="/" alt="foto ventana">
+                <img class="section-pictures_img" src="/" alt="Foto decoracion">
+                <img class="section-pictures_img" src="/" alt="Foto barra">
+                <img class="section-pictures_img" src="/" alt="Foto estanteria2">
+                <img class="section-pictures_img" src="/" alt="Foto plantas">
+            </div>
+        </section>
+        <section class="section-menu">
+            <div>
+                <h2 class="section-type">CARTA</h2>
+            </div>
+                <nav class="section-menu_nav">
+                    <a href="/">DESAYUNOS</a>
+                    <a href="/">CARTA</a>
+                    <a href="/">COCKTAILS</a>
+                </nav>
+                <!-- Sección menu con un articulo y
+                     con 2 bloques (div-left,div-right)-->
+            <article> 
+                <div class="section-menu__div-left">
+                    <p><strong>DULCES</strong></p>
+                    <table class="section-menu__div-left_table">
+                        <tbody>
+                            <tr>
+                                <td>CROISSANT</td>
+                                <td>1,40</td>
+                            </tr>
+                            <tr>
+                                <td>CROISSANT A LA PLANCHA</td>
+                                <td>1,60</td>
+                            </tr>
+                            <tr>
+                                <td>NAPOLITANA DE CHOCOLATE</td>
+                                <td>1,40</td>
+                            </tr>
+                            <tr>
+                                <td>TOSTADA FRANCESA CON HELADO DE VAINILLA Y FRUTOS ROJOS</td>
+                                <td>4,50</td>
+                            </tr>
+                            <tr>
+                                <td>TORTITAS CON NATA Y SIROPE DE CHOCOLATE</td>
+                                <td>4,50</td>
+                            </tr>
+                            <tr>
+                                <td>GOFRE CASEERO CON HELADO Y SIROPE</td>
+                                <td>4,90</td>
+                            </tr>
+                            <tr>
+                                <td>TARTA CARROT CAKE</td>
+                                <td>4,50</td>
+                            </tr>
+                            <tr>
+                                <td>TARTA RED VELVET</td>
+                                <td>4,50</td>
+                            </tr>
+                            <tr>
+                                <td>TARTA OREO CAKE</td>
+                                <td>4,50</td>
+                            </tr>
+                            <tr>
+                                <td>TARTA DOBLE CHOCOLATE</td>
+                                <td>4,50</td>
+                            </tr>
+                            <tr>
+                                <td>CREPES CON CHOCOLATE</td>
+                                <td>4,50</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><strong>DESAYUNOS 7.30 A 11.30</strong></p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>CAFE+ TOSTADA (TOMATE,ACEITE O MERMELADA)</td>
+                                <td>2,50</td>
+                            </tr>
+                            <tr>
+                                <td>CAFE+ BOLLERIA</td>
+                                <td>2,30</td>
+                            </tr>
+                            <tr>
+                                <td>CAFE+ BOLLERIA O TOSTADA + ZUMO GRANDE</td>
+                                <td>5,50</td>
+                            </tr>
+                            <tr>
+                                <td>CAFE + TORTILLA</td>
+                                <td>4,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><strong>ZUMOS</strong></p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>ZUMO NATURAL DE NARANJA</td>
+                                <td>3,00</td>
+                            </tr>
+                            <tr>
+                                <td>ZUMO NATURAL DE NARANJA Y FRESA</td>
+                                <td>4,00</td>
+                            </tr>
+                            <tr>
+                                <td>ZUMO DE NARANJA Y MANZANA</td>
+                                <td>4,00</td>
+                            </tr>
+                            <tr>
+                                <td>ZUMO DE FRESA Y PLATANO</td>
+                                <td>4,00</td>
+                            </tr>
+                            <tr>
+                                <td>ZUMO DE MANZANA</td>
+                                <td>4,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><strong>MILKSHAKES</strong></p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>OREO</td>
+                                <td>5,20</td>
+                            </tr>
+                            <tr>
+                                <td>CHOCOLATE</td>
+                                <td>4,50</td>
+                            </tr>
+                            <tr>
+                                <td>CHOCOLATE BLANCO</td>
+                                <td>4,50</td>
+                            </tr>
+                            <tr>
+                                <td>VAINILLA</td>
+                                <td>4,50</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="section-menu__div-right">
+                    <p><strong>SALADOS</strong></p>
+                    <table class="section-menu__div-right_table">
+                        <tbody>
+                            <tr>
+                                <td>TOSTADA DE PAN RUSTICO CON TOMATE</td>
+                                <td>1,80</td>
+                            </tr>
+                            <tr>
+                                <td>TOSTADA DE PAN RUSTICO CON JAMÓN IBÉRICO O PAVO</td>
+                                <td>3,50</td>
+                            </tr>
+                            <tr>
+                                <td>TOSTADA DE PAN RUSTICO CON AGUACATE</td>
+                                <td>3,50</td>
+                            </tr>
+                            <tr>
+                                <td>SANDWICH O CROISSANT DE PAVO CON QUESO</td>
+                                <td>4,00</td>
+                            </tr>
+                            <tr>
+                                <td>SANDWICH O CROISSANT DE JAMÓN IBÉRICO/td>
+                                <td>4,00</td>
+                            </tr>
+                            <tr>
+                                <td>SANDWICH O CROISSANT DE JAMÓN YORK Y QUESO</td>
+                                <td>3,50</td>
+                            </tr>
+                            <tr>
+                                <td>HUEVOS FRITOS O REVUELTOS</td>
+                                <td>4,50</td>
+                            </tr>
+                            <tr>
+                                <td>HUEVOS REVUELTOS CON PAVO</td>
+                                <td>4,50</td>
+                            </tr>
+                            <tr>
+                                <td>HUEVOS REVUELTOS CON JAMÓN IBÉRICO</td>
+                                <td>5,00</td>
+                            </tr>
+                            <tr>
+                                <td>HUEVOS REVUELTOS CON BACON</td>
+                                <td>4,50</td>
+                            </tr>
+                            <tr>
+                                <td>PINCHO DE TORTILLA</td>
+                                <td>3,50</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><strong>BAGUETTE</strong></p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>TORTILLA</td>
+                                <td>4,00</td>
+                            </tr>
+                            <tr>
+                                <td>JAMÓN CON TOMATE</td>
+                                <td>4,50</td>
+                            </tr>
+                            <tr>
+                                <td>AGUACATE CON TOMATE Y PAVO</td>
+                                <td>5,00</td>
+                            </tr>   
+                        </tbody>
+                    </table>
+                    <p><strong>FRAPUCCINOS</strong></p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>COFFEE</td>
+                                <td>3,50</td>
+                            </tr>
+                            <tr>
+                                <td>MOCA</td>
+                                <td>3,50</td>
+                            </tr>
+                            <tr>
+                                <td>MOCA BLANCO</td>
+                                <td>3,50</td>
+                            </tr>
+                            <tr>
+                                <td>VAINILLA</td>
+                                <td>3,50</td>
+                            </tr><tr>
+                                <td>AVELLANA</td>
+                                <td>3,50</td>
+                            </tr>   
+                        </tbody>
+                    </table>
+                    <p><strong>SMOOTHIE CON BASE DE ZUMO O YOGURT</strong></p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>FRESA - MELÓN</td>
+                                <td>4,50</td>
+                            </tr>
+                            <tr>
+                                <td>PIÑA COLADA - SANDÍA</td>
+                                <td>4,50</td>
+                            </tr>
+                            <tr>
+                                <td>MANGO - BANANA</td>
+                                <td>5,20</td>
+                            </tr>
+                            <tr>
+                                <td>MARACUYA - COCO</td>
+                                <td>4,50</td>
+                            </tr><tr>
+                                <td>MEZCLA TUS SABORES FAVORITOS</td>
+                                <td>4,50</td>
+                            </tr>   
+                        </tbody> 
+                    </table>
+                    <p><strong>TES E INFUSIONES</strong></p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>PREGUNTA POR NUESTRA CARTA</td>
+                                <td>2,00</td>
+                            </tr>
+                            <tr>
+                                <td>INFUSIONES ESPECIALES</td>
+                                <td>1,50</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <button type="button">VER LA CARTA DE DESAYUNOS</button>
+                </div>     
+            </article>
+        </section>
+        <section class="section-reservation">
+            <div>
+                <h2 class="section-type">RESERVAS</h2>
+            </div>
+            <article class="section-reservation__article-form">
+                <form>
+                    <fieldset>
+                        <legend>datos para la reserva</legend>
+                        <label for="persons">Personas</label>
+                        <input type="number" name="persons" id="persons" placeholder="Número de personas" min="1" max="6" required>
+                        <label for="time">Hora</label>
+                        <input type="time" name="time" id="time" required>
+                        <br>
+                        <button type="submit">Reservar</button>  
+                    </fieldset>
+                </form>
+                <p>Si no encuentra disponibilidad, apúntese en la lista de espera</p>
+                <button type="button">Lista de espera</button>
+                <br>
+                <button type="button">Solicitud de grupo</button>
+            </article>    
+            <article class="section-reservation__article-address">
+                <h2 id="section-reservation__article-address1">MOZZABAR</h2>
+                <h2 id="section-reservation__article-address2">FOOD & DRINK</h2>
+                <div>
+                    <p>Conde de Peñalver 64</p>
+                    <p>28006 - Madrid</p>
+                    <p>Abrimos de lunes a domingo</p>
+                    <p>de 07:30 a 01:30</p>
+                </div>
+            </article>
+
+        </section>
+        <section class="section-blog">
+            <div>
+                <h2 class="section-type">BLOG</h2>
+            </div>
+            <article class="section-blog__article">
+                <h3>Mozza Bar</h3>
+                <p>Fecha</p>
+                <p>MOZZA BAR ABRE NUEVA TERRAZA DE VERANO EN BOMBAY LOUNGE</p>
+                <P>Este viernes 6 de Junio Mozza Bar estrena una nueva terraza en Bombay Lounge</P>
+            </article>
+            <article class="section-blog__article">
+                <h3>Mozza Bar</h3>
+                <p>Fecha</p>
+                <p>PROMOCIÓN ESPECIAL: TARTA & COCKTAIL 6,90€</p>
+            </article>
+            <article class="section-blog__article">
+                <h3>Mozza Bar</h3>
+                <p>Fecha</p>
+                <P>MOZZA BAR: BRUNCH 2 DE MARZO</P>
+            </article>
+            <div>
+                <button type="button">VER TODAS LAS ENTRADAS</button>
+            </div>
+        </section>
+        <section class="section-contac">
+            <article>
+                <img src="/" alt="logo-direccion">
+                <p>C/ Conde de Peñalver 64</p>
+                <p>28006 - Madrid</p>
+            </article>
+            <article>
+                <img src="/" alt="logo-movil">
+                <p>910 258 327</p>
+            </article>
+            <article>
+                <img src="/" alt="logo-correo">
+                <p>hola@mozzabar.es</p>
+            </article>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <article class="footer__article">
+            <h4>ENLACES DE INTERÉS</h4>
+            <a href="/">Aviso Legal</a>
+            <a href="/">Cookies</a>
+        </article>
+        <article class="footer__article">
+            <h4>HORARIOS</h4>
+            <P>Lunes a Domingo</P>
+            <p>07:30 - 01:30</p>
+        </article>
+        <article class="footer__article">
+            <h4>CONTACTO</h4>
+            <p>C/ Conde de Peñalver 64</p>
+            <p>28006 - Madrid</p>
+            <br>
+            <p>910 258 327</p>
+            <p>hola@mozzabar.es</p>
+        </article>
+    </footer>
+
+</body>
+</html>
