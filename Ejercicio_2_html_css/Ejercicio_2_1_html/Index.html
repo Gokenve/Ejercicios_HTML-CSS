@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2/1 HTML</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div>
+                <a href="https://issuu.com/">
+                    <img src="./images/icon_issuu.png" alt="Logo de Issuu"/>
+                    <h1>issuu</h1>
+                </a>
+            </div>
+            <div>
+                <p>Already a user?</p>
+                <a href="#">Sing in</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="section">
+            <article class="section__article">
+                <h2>Create an Issuu Account.</h2>
+                <div>
+                    <img src="./images/logo_google.png" alt="Logo de Google"/>
+                    <a href="#">Sign in with Google</a>
+                </div>
+                <div>
+                    <img src="./images/logo_facebook.png" alt="Logo de Facebook"/>
+                    <a href="#">Continue with Facebook</a>
+                </div>
+                <p>or with email</p>
+            </article>
+            <form class="section__form" action="#" method="post" name="registration">
+                <fieldset>
+                    <legend>Registration Data</legend>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="e.g.john.doe@email.com" required/>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required/>
+                    <input type="checkbox" name="registration_check" id="check" value="1" required/>
+                    <label for="check">I accept the <span>Terms of Service</span> and the <span>Professional Terms of sercice.</span></label>
+                    <input type="submit" value="Create account">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <nav>
+            <a href="#">Issuu Inc.</a>
+            <ul>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">DMCA</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html> 
